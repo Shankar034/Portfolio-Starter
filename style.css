@@ -106,3 +106,49 @@
 
 
 }
+
+
+/* --------------Confact Form-------------- */
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 144px 34px 0 34px;
+   
+
+
+
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(91, 56, 56);
+    margin: 0 5px;
+
+}
+
+.contactform form div{
+    border-radius: 4px;
+    width: 16vw;
+    /* font-size:20px; */
+    /* font-family: 'Source Code Pro', monospace; */
+    margin: 6px 0;
+    padding: 10px;
+
+
+
+}

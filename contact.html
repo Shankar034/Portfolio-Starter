@@ -21,24 +21,24 @@
             </nav>
         </div>
         <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="hello">Hi I am</div>
-                    <div class="name">Shankar</div>
-                    <div class="about">Developer, Entrepreneur</div>
-                    <div class="moreabout">Hi, I’m Shankar! I'm a web developer. I create websites that help organizations address business challenges and meet their needs. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS. I’m a lifelong learner (currently taking a course on building AI and ML games with Python!) and love to read.</div>
-                    <div class="buttons">
-                        <a href="/CV.txt">
-                            
-                            <button>Download CV</button>
-                        </a>
-                        <a href="/contact.html">
-
-                            <button>Contact Me</button>
-                        </a>
+            <div class="contactform">
+                <h1>Contact me for work/general Enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
                     </div>
-                </div>
-                <div class="devPic"><img src="human.png" alt="Shankar"></div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone</label>
+                      <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>
         </div>
     </div>
