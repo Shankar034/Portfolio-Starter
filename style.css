@@ -11,9 +11,9 @@
 
 }
 .sidebar{
-    background-color: rgb(226, 221, 221);
+    background-color: rgb(207, 201, 201);
     padding: 10px;
-    width: 15vw;
+    width: 434px;
     height: 100vh;
     
 }
@@ -28,6 +28,11 @@
     padding: 33px 0;
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(87, 85, 85);
+}
+
 .main{
     /* background-color: rgb(35, 112, 189); */
     width: 90vw;
@@ -37,7 +42,7 @@
 
 .infoContainer{
     /* background-color: rebeccapurple; */
-    height: 60vh;
+    height: 58vh;
     width: 80vW;
     margin:144px auto;
     display: flex;
@@ -46,7 +51,7 @@
 
 .devPic img{
     
-    height: 60vh;
+    height: 80vh;
 }
 
 .devInfo{
@@ -57,17 +62,47 @@
 
 }
 
+.buttons{
+    margin: 34px;
+}
 .buttons button{
+    margin: 0px 4px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(83, 114, 218);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
 
+
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(55, 130, 130);
 }
 .hello{
     font-size: 65px;
+    margin: 0 20px;
 }
 .name{
     font-size: 50px;
     font-weight: bold;
+    margin: 0 20px;
+
 }
 
 .about{
     font-size: 40px;
+    margin:  0 20px;
+
+}
+.moreabout{
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+
+
 }
