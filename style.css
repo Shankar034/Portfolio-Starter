@@ -62,10 +62,11 @@
 
 }
 
-.buttons{
+.btn{
     margin: 34px;
+   
 }
-.buttons button{
+.btn button{
     margin: 0px 4px;
     padding: 9px 14px;
     border-radius: 22px;
@@ -78,8 +79,12 @@
 
 
 }
+.btn .btn1{
+    margin: 0px;
+    width: 15vw;
+}
 
-.buttons button:hover{
+.btn button:hover{
     background-color: white;
     color: rgb(55, 130, 130);
 }
@@ -122,7 +127,8 @@
 
 .contactform h1{
     font-family: 'Source Code Pro', monospace;
-    text-align: center;
+    /* text-align: center; */
+    padding: 12px 0;
 }
 
 .contactform form div{
@@ -141,14 +147,30 @@
 
 }
 
-.contactform form div{
-    border-radius: 4px;
-    width: 16vw;
+.contactform form div input{
+    border-radius: 5px;
+    width: 26vw;
     /* font-size:20px; */
     /* font-family: 'Source Code Pro', monospace; */
-    margin: 6px 0;
-    padding: 10px;
+    margin: 6px 0 0 0;
+    padding: 3px;
 
 
 
 }
+
+
+#form-check {
+    flex-direction: row;
+}
+#form-check input{
+    width:20px;
+    margin: 3px 0;
+}
+
+.form-check-label{
+    padding: 0 10px;
+}
+
+
+

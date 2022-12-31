@@ -25,19 +25,30 @@
                 <h1>Contact me for work/general Enquiries</h1>
                 <form>
                     <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="address" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="address" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
                       <label for="clientemail" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
                     </div>
                     <div class="mb-3">
                       <label for="clientphone" class="form-label">Phone</label>
                       <input type="phone" class="form-control" id="clientphone">
+                      <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
                     </div>
-                    <div class="mb-3 form-check">
+                    <div id="form-check" class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="isclient">
-                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                      <label  class="form-check-label" for="isclient">I want you to work on a project with me</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="btn">
+
+                      <button type="submit" class="btn1 btn-primary">Submit</button>
+                    </div>
                   </form>
             </div>
         </div>
