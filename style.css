@@ -44,7 +44,7 @@
 .infoContainer{
     /* background-color: rebeccapurple; */
     height: 58vh;
-    width: 80vW;
+    /* width: 80vW; */
     margin:144px auto;
     display: flex;
     justify-content: space-around;
@@ -262,5 +262,21 @@ margin-left: 20px;
     .infoContainer{
         flex-wrap: wrap;
     }
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    width: 30px;
+}
+
+.cross{
+    width: 30px;
+    margin-left: 180px;
 }
 
