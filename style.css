@@ -36,6 +36,7 @@
 .main{
     /* background-color: rgb(35, 112, 189); */
     width: 90vw;
+    padding: 23px;
   
     
 }
@@ -47,11 +48,14 @@
     margin:144px auto;
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
 .devPic img{
     
-    height: 80vh;
+    height: 70vh;
+    width: auto;
 }
 
 .devInfo{
@@ -220,6 +224,43 @@ margin-left: 20px;
     width: 265px;
     height: 6px;
     margin: 10px 0;
+    border: 1px solid black;
 }
 
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+
+
+/* .hundered{
+    width: 265px;
+}
+
+.fifty{
+    width: 125px;
+} */
+
+
+.t5{
+    width: 125px;
+}
+
+
+@media (max-width:800px){
+    *{
+        /* background-color: rebeccapurple; */
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    .infoContainer{
+        flex-wrap: wrap;
+    }
+}
 
